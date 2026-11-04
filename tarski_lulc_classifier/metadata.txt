@@ -1,0 +1,22 @@
+[general]
+name=Tarski Labs - LULC Classifier
+qgisMinimumVersion=3.34
+qgisMaximumVersion=3.99
+description=Lightweight land use / land cover classification: draw ROIs, train, preview and classify in one dock.
+version=1.0.2
+author=Tarski Labs
+email=gamerkeren31@gmail.com
+about=One lightweight package combining the classification workflow of the Semi-Automatic Classification Plugin with the image-classification tools of SAGA GIS (via SAGA NextGen), re-implemented in pure Python on the GDAL, NumPy, SciPy and scikit-learn already bundled with QGIS. No Remotior Sensus, no SAGA binaries, no extra installs.
+  Supervised: Minimum Distance, Mahalanobis, Maximum Likelihood, Spectral Angle Mapper, Parallelepiped, Random Forest, SVM, Multi-layer Perceptron.
+  Unsupervised: K-Means, ISODATA.
+  Post-processing: majority filter, sieve, accuracy assessment (confusion matrix, OA, kappa), area report.
+  All tools are also available in the Processing Toolbox and Model Builder.
+category=Raster
+tags=classification,land cover,land use,LULC,remote sensing,random forest,maximum likelihood,ISODATA,accuracy,SAGA,SCP
+icon=icon.png
+experimental=False
+deprecated=False
+hasProcessingProvider=yes
+changelog=1.0.2 Processing Toolbox outputs now get the class legend applied when loaded (fixes 0–255 legend).
+  1.0.1 Legend shows only the classes present (no 0–255 palette entries); .qml style written next to every output.
+  1.0.0 First release.
