@@ -25,4 +25,4 @@ Semua tool juga tersedia di **Processing Toolbox › Tarski Labs - LULC** (bisa 
 
 Model terlatih bisa disimpan (`.tlc`) dan dimuat ulang. Hanya muat file `.tlc` yang kamu buat sendiri.
 
-License: GPL-3.0-or-later.
+License: Apache-2.0 (lihat LICENSE di root repositori).
